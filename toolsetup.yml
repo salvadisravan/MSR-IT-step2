@@ -1,0 +1,5 @@
+- hosts: MSR-IT
+  roles:
+    - Docker
+    - Git
+    - Openssl

@@ -1,0 +1,5 @@
+- name: Install Open SSL latest
+  apt:
+    pkg: openssl
+    state: present
+    update_cache: yes
